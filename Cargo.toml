@@ -1,0 +1,16 @@
+[package]
+name = "pixel-attack"
+authors = ["Gorkem Cinar <gorkemcnr@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/gorkemcnr/pixel-attack"
+categories = ["game-development", "games", "rust", "bevy"]
+keywords = ["rust", "bevy", "gamedev", "parallax", "scrolling"]
+exclude = ["assets/*"]
+
+[dependencies]
+bevy = "0.9.1"
+rand = "0.8.5"
+bevy-parallax = "0.3.0"
